@@ -11,6 +11,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System.Globalization;
 using Chat.Server;
+using Chat.BasicElements;
 
 namespace Chat
 {
@@ -18,9 +19,9 @@ namespace Chat
     {
         class RoomManager
         {
-            public RoomManager(ChatServer chatServer)
+            public RoomManager(Room[] rooms)
             {
-
+                
             }
         }
     }
